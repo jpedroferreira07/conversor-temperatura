@@ -5,6 +5,22 @@ Um programa em Python que converte temperaturas entre Celsius, Fahrenheit e Kelv
 ## Objetivo
 Automatizar o cálculo de conversão entre as principais escalas termométricas.
 
+## Duas versões do programa
+
+Este foi o meu primeiro projeto sozinho, para aprender lógica de programação e Python na faculdade. Deixei as duas versões aqui para mostrar a evolução:
+
+| Arquivo | O que é |
+|---|---|
+| `versao_1_if_elif.py` | Primeira versão, do jeito que eu fiz no começo: um bloco `if/elif` para cada conversão, com a conta escrita dentro. |
+| `versao_2_funcoes.py` | Versão evoluída: a conta de cada conversão virou uma função (ex: `celsius_para_fahrenheit`), e o `main()` só pergunta, chama a função certa e mostra o resultado. |
+
+As duas fazem exatamente a mesma coisa: convertem entre Celsius, Fahrenheit e Kelvin nas seis direções (C para F, F para C, C para K, K para C, F para K e K para F).
+
+**O que mudou da versão 1 para a 2:**
+* Cada conta ganhou um nome que explica o que ela faz, e fica escrita em um lugar só.
+* As funções podem ser reaproveitadas em outros programas.
+* Ficou mais fácil achar e corrigir uma fórmula, sem mexer no resto do código.
+
 ## Tecnologias utilizadas
 * Python 3
 * Vs Code, Git e GitHub
@@ -29,10 +45,10 @@ Automatizar o cálculo de conversão entre as principais escalas termométricas.
 
    `cd conversor-temperatura-python`
 
-4. Por fim, execute o script:
+4. Por fim, execute a versão que quiser (use `versao_1_if_elif.py` para a primeira):
 
-   * **Windows:**`python nome_do_programa.py`
+   * **Windows:**`python versao_2_funcoes.py`
 
-   * **Linux/macOS:**`python3 nome_do_programa.py`
+   * **Linux/macOS:**`python3 versao_2_funcoes.py`
 
 ## Demonstração
