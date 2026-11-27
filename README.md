@@ -39,11 +39,11 @@ As duas fazem exatamente a mesma coisa: convertem entre Celsius, Fahrenheit e Ke
 
 2. Navegue até a pasta onde deseja salvar o projeto, copie a URL do repositório no GitHub e clone-o executando o comando:
 
-   ```git clone https://github.com/joaopedroferreira07/conversor-temperatura-python.git```
+   ```git clone https://github.com/jpedroferreira07/conversor-temperatura.git```
 
 3. Acesse a pasta do programa:
 
-   `cd conversor-temperatura-python`
+   `cd conversor-temperatura`
 
 4. Por fim, execute a versão que quiser (use `versao_1_if_elif.py` para a primeira):
 
