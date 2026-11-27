@@ -51,4 +51,12 @@ As duas fazem exatamente a mesma coisa: convertem entre Celsius, Fahrenheit e Ke
 
    * **Linux/macOS:**`python3 versao_2_funcoes.py`
 
-## Demonstração
+## Prints do projeto
+
+**Versão 1** (`versao_1_if_elif.py`), convertendo 36.5 °C para Fahrenheit:
+
+![Execução da versão 1 no prompt de comando](imagens/demo_versao_1.png)
+
+**Versão 2** (`versao_2_funcoes.py`), convertendo 100 °F para Celsius:
+
+![Execução da versão 2 no prompt de comando](imagens/demo_versao_2.png)
